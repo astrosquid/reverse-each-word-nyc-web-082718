@@ -3,5 +3,5 @@ def reverse_each_word(sentence)
   sentence.split(' ').each do |word|
     s << word.reverse + ' '
   end 
-  s
+  s.chomp(' ')
 end
